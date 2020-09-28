@@ -20,5 +20,5 @@ docker build --rm=true -f build_context/Dockerfile --build-arg TAG=2.9 -t quay.i
 
 This will build a version with Ansible 2.9.
 
-**Note:** If you are running this with your own custom execution environment image, you will want to substitute your own quay.io account for beeankha.
+> **Note:** If you are running this with your own custom execution environment image, you will want to substitute your own quay.io account for `beeankha`.
 
