@@ -6,7 +6,7 @@ Clone this repository, download Ansible-Runner, then run:
 ansible-builder build -f exec_env_image_example/execution-environment.yml --container-runtime=docker -c build_context --tag quay.io/beeankha/ee_image:latest
 ```
 
-Then attempting to put on build trigger with:
+Then attempt to put on a build trigger with:
 
 https://quay.io/repository/beeankha/ee_image
 
