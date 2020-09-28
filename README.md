@@ -3,7 +3,7 @@
 Clone this repository, download Ansible-Runner, then run:
 
 ```
-ansible-builder build -f input/execution-environment.yml --container-runtime=docker -c build_context --tag quay.io/beeankha/ee_image:latest
+ansible-builder build -f exec_env_image_example/execution-environment.yml --container-runtime=docker -c build_context --tag quay.io/beeankha/ee_image:latest
 ```
 
 Then attempting to put on build trigger with:
