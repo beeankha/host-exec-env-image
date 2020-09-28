@@ -1,0 +1,5 @@
+---
+collections:
+  - google.cloud
+  - theforeman.foreman
+  - ansible.netcommon

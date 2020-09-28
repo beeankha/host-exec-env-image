@@ -1,0 +1,14 @@
+---
+version: 1
+requirements:
+  galaxy: requirements.yml
+
+additional_build_steps:
+  prepend: |
+    RUN echo this is a pre-install command
+    RUN cat /etc/os-release
+  append:
+    - RUN echo Oh hey this is a post_install command!
+    - RUN ls -la /etc
+
+# This file is for example only!
