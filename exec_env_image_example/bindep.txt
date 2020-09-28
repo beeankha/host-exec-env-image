@@ -1,0 +1,4 @@
+[For example purposes only!]
+
+subversion [platform:rpm]
+subversion [platform:dpkg]
