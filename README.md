@@ -12,7 +12,7 @@ https://quay.io/repository/beeankha/ee_image
 
 ### Rebuilding
 
-Say you do not have `ansible-builder` installed, nor do you want it, and you just want to build an image from what is here.
+If you don't have `ansible-builder` installed (and you don't want to install it) and you just want to build an image from what is here, then run:
 
 ```
 docker build --rm=true -f build_context/Dockerfile --build-arg TAG=2.9 -t quay.io/beeankha/ee_image:2.9 build_context
